@@ -6,7 +6,7 @@
         @csrf
         @method('PUT')
         <h1>Modificar Arriendo</h1>
-        <h3 class="my-3">Datos del Arriendo</h3>
+        <h3 class="my-3">Datos de Arriendo</h3>
         @if ($errors->any())
             <div class="alert alert-danger col-6 align-items-center justify-content-center">
                 <ul>
